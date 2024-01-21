@@ -1,0 +1,219 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --text-primary: #ffffff;
+  --text-primary-inverse: #112931;
+  --text-primary-main: #112931;
+  --text-secondary: #a6aaae;
+  --text-secondary-inverse: #494a4d;
+  --background-bubble-primary: #193741;
+  --background-bubble-secondary: #ffbe1e;
+  --border-primary: #ced0d2;
+  --background-soft: #ffbe1e;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+  --text-tertiary: #6b6f73;
+  --shadow-primary: 0px 6px 16px 0px #0a0a0a1f, 0px 4px 14px 0px #0a0a0a14,
+    0px 8px 10px 0px #0a0a0a14;
+  --processing-dot-size: 4px;
+}
+
+.dark {
+  --text-primary: #193741;
+  --text-primary-inverse: #ffffff;
+  --text-primary-main: #193741;
+  --text-secondary: #fafafa;
+  --text-secondary-inverse: #dddfe2;
+  --text-tertiary: #768d94;
+  --background-bubble-primary: #ffbe1e;
+  --background-bubble-secondary: #112931;
+  --background-soft: #ffbe1e;
+  --border-primary: #768d94;
+  --background-start-rgb: 23, 23, 23;
+  --background-end-rgb: 28, 28, 28;
+}
+
+body {
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}
+
+.title-span {
+  color: var(--background-soft);
+}
+
+.chatbot-section {
+  background-color: var(--text-primary);
+  box-shadow: var(--shadow-primary);
+  border: 1px solid var(--border-primary);
+}
+
+.chatbot-header {
+  border-bottom: 1px solid var(--border-primary);
+}
+
+.chatbot-header svg {
+  fill: var(--text-primary-inverse);
+}
+
+.chatbot-text-primary {
+  color: var(--text-primary-inverse);
+}
+
+.chatbot-text-secondary {
+  color: var(--text-secondary);
+}
+
+.chatbot-text-secondary-inverse {
+  color: var(--text-secondary-inverse);
+}
+
+.chatbot-text-tertiary {
+  color: var(--text-tertiary);
+}
+
+.chatbot-input {
+  color: var(--text-primary-inverse);
+  border: 1px solid var(--border-primary);
+}
+
+.chatbot-input::placeholder {
+  color: var(--text-secondary);
+}
+
+.chatbot-send-button {
+  background-color: var(--text-primary-inverse);
+  color: var(--text-primary);
+}
+
+.chatbot-send-button svg {
+  fill: var(--text-primary);
+}
+
+.chatbot-button-primary {
+  background-color: var(--text-primary-inverse);
+  color: var(--text-primary);
+}
+
+.chatbot-button-secondary {
+  border: 1px solid var(--border-primary);
+  color: var(--text-primary-inverse);
+}
+
+.chatbot-faq-link {
+  border: 1px solid var(--border-primary);
+  border-radius: 24px;
+  color: var(--background-bubble-primary);
+}
+
+.chatbot-faq-link svg {
+  fill: var(--text-tertiary);
+}
+
+.talk-bubble {
+  text-align: left;
+  display: inline-block;
+  position: relative;
+  color: var(--text-secondary-inverse);
+  background-color: var(--background-bubble-secondary);
+  border-radius: 10px;
+  border-bottom-left-radius: 0px;
+}
+
+.talk-bubble.user {
+  text-align: right;
+  color: var(--text-primary);
+  background-color: var(--background-bubble-primary);
+  border-radius: 10px;
+  border-bottom-right-radius: 0px;
+}
+
+.talk-bubble svg {
+  position: absolute;
+  left: -1px;
+  bottom: 2px;
+  transform: translateY(100%) rotateY(180deg);
+  fill: var(--background-bubble-secondary);
+}
+
+.talk-bubble.user svg {
+  right: -1px;
+  left: auto;
+  bottom: 2px;
+  transform: translateY(100%);
+  fill: var(--background-bubble-primary);
+}
+
+.dot-flashing {
+  position: relative;
+  /* padding-left: 8px; */
+  /* padding-right: 8px; */
+  width: var(--processing-dot-size);
+  height: var(--processing-dot-size);
+  border-radius: 100%;
+  background-color: var(--text-tertiary);
+  color: var(--text-tertiary);
+  animation: dot-flashing 1s infinite linear alternate;
+  animation-delay: 0.5s;
+}
+
+.dot-flashing::before,
+.dot-flashing::after {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  top: 0;
+}
+
+.dot-flashing::before {
+  left: -6px;
+  width: var(--processing-dot-size);
+  height: var(--processing-dot-size);
+  border-radius: 100%;
+  background-color: var(--text-tertiary);
+  color: var(--text-tertiary);
+  animation: dot-flashing 1s infinite alternate;
+  animation-delay: 0s;
+}
+
+.dot-flashing::after {
+  left: 6px;
+  width: var(--processing-dot-size);
+  height: var(--processing-dot-size);
+  border-radius: 100%;
+  background-color: var(--text-tertiary);
+  color: var(--text-tertiary);
+  animation: dot-flashing 1s infinite alternate;
+  animation-delay: 1s;
+}
+
+@keyframes dot-flashing {
+  0% {
+    background-color: var(--text-tertiary);
+  }
+
+  50%,
+  100% {
+    background-color: rgba(152, 128, 255, 0.2);
+  }
+}
+
+.prompt-button {
+  background-color: var(--background-soft);
+  color: var(--text-primary-main);
+}
+
+/* Toggle Styles */
+.toggle-background {
+  background-color: var(--background-bubble-primary);
+}
+
+.toggle-boarder {
+  border: 1px solid var(--background-bubble-primary);
+}

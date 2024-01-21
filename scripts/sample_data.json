@@ -1,0 +1,67 @@
+[
+  {
+    "url": "https://gestionysistemas.com",
+    "title": "Servicios",
+    "content": "¿Qué servicios ofrecen?\n- Data Analytics & AI \n- Infraestructura y Cloud \n- Industria 4.0 \n- Modern Workplace & Business Solutions\n- Desarrollo de Software y Mesas Ágiles"
+  },
+  {
+    "url": "https://gestionysistemas.com/servicios-data-analytics-ai",
+    "title": "Data Analytics & AI",
+    "content": "El Poder de los Datos y la Inteligencia Artificial \nSabías que hoy en día, las empresas acumulan enormes cantidades de datos, pero a menudo no saben cómo aprovechar todo ese potencial. Esto se traduce en oportunidades desperdiciadas, pérdida de eficiencia y costos innecesarios. Es aquí donde la analítica de datos y la Inteligencia Artificial (AI) toman un papel preponderante transformando la manera en que las organizaciones operan y toman decisiones."
+  },
+  {
+    "url": "https://gestionysistemas.com/servicios-data-analytics-ai",
+    "title": "Beneficios - Data Analytics & AI",
+    "content": "¿Cuáles son los beneficios de Data Analytics & AI? \n- Toma de Decisiones Informadas \n- Automatización de Procesos \n- Optimización de Recursos \n- Eficiencia Operativa \n- Descubrimiento de Patrones y Tendencias \n- Innovación Continua"
+  },
+  {
+    "url": "https://gestionysistemas.com/servicios-data-analytics-ai",
+    "title": "Soluciones - Data Analytics & AI",
+    "content": "¿Cuáles son las soluciones de Data Analytics & AI? \n Soluciones de Inteligencia de Negocios: \n- Power BI \n- Arquitectura \n- Visualización de datos \n- Integración de datos \n- Métricas \n- KPI’s \nImplementación de Plataformas Analíticas: \n- Arquitectura \n- Data Lake \n- Big Data \n- Data Warehouse Moderno \n- Ingeniería de datos \n- DataOps \n- Procesamiento en tiempo real \n- Catálogo de datos \n- Seguridad"
+  },
+  {
+    "url": "https://gestionysistemas.com/servicios-data-analytics-ai",
+    "title": "Casos de éxito - Data Analytics & AI",
+    "content": "Casos de éxito en Industria San Miguel (Data Analytics & AI) \nSe estableció un almacén de datos en la nube con el fin de mejorar la calidad y disponibilidad de los informes, migrando la información de cuatro áreas. Esto se hizo para abordar un problema persistente en el sistema, que dificultaba la visualización de datos actualizados y afectaba negativamente el análisis integral. \nResultados obtenidos: \nLas deficiencias causadas por el sistema defectuoso que impedía la obtención de datos actualizados han sido resueltas con la implementación del Sistema de Información en Tiempo Real (ISM). Ahora, se puede acceder a información actual en cualquier momento que sea necesaria para los usuarios clave, lo que permite tomar decisiones oportunas."
+  },
+  {
+    "url": "https://gestionysistemas.com/servicios-data-analytics-ai",
+    "title": "Casos de éxito - Data Analytics & AI",
+    "content": "Casos de éxito en Credicorp (Data Analytics & AI) \nEn colaboración con el equipo de Credicorp, se llevó a cabo la selección de fuentes de información con el objetivo de identificar datos de alta calidad. Posteriormente, se estableció un almacén de datos (Data Warehouse) para la recopilación, análisis y segmentación de la información. Esta valiosa data fue almacenada en la nube, lo que facilita su procesamiento en comparación con su almacenamiento en sistemas locales (on-premise). \nResultados obtenidos: \nCon la introducción del nuevo sistema en la nube, los equipos han logrado significativas reducciones en los tiempos de ejecución. Por ejemplo, los informes regionales que solían llevar hasta diez días para su preparación manual ahora se generan en tan solo dos días. Además, se han eliminado los obstáculos que ralentizaban los procesos y se ha logrado la integración y análisis de datos provenientes de diferentes software que previamente no se comunicaban entre sí, lo que facilita la interconexión y análisis de información entre departamentos, haciendo que el cierre de mes sea más eficiente."
+  },
+  {
+    "url": "https://gestionysistemas.com/servicios-data-analytics-ai",
+    "title": "Casos de éxito - Data Analytics & AI",
+    "content": "Casos de éxito en Marcobre (Data Analytics & AI) \nPara abordar los desafíos planteados por Marcobre, dividimos el proyecto en dos fases de implementación. En la primera etapa, nuestro objetivo era transferir la información a Analysis Services (una herramienta esencial en el proceso de migración que almacena los datos en bruto, los cuales requieren una plataforma de visualización para su consumo). Esto permitió a Marcobre generar informes utilizando Power BI. También se incorporaron nuevas tablas a los modelos existentes con el propósito de mejorar la visualización para sus diversos usuarios clave. \nResultados obtenidos: \nGracias a esta implementación, Marcobre tiene acceso a una fuente centralizada de información que es integral, legible y disponible en cualquier momento, ya que se encuentra en la nube. Marcobre ahora puede disfrutar de actualizaciones en tiempo real y acceder a informes previamente generados para su visualización y análisis. Este avance marca el final de los procesos manuales y los problemas de integración de datos que afectaban a las diversas áreas clave de la empresa."
+  },
+  {
+    "url": "https://gestionysistemas.com/conocenos/",
+    "title": "Sobre Nosotros",
+    "content": "Somos una empresa peruana líder en el desarrollo e implementación de soluciones tecnológicas y de transformación digital, enfocada en ayudar a las organizaciones a optimizar sus procesos, mejorar la eficiencia y potenciar su crecimiento mediante la implementación de tecnologías innovadoras. \nCon un equipo altamente calificado y una amplia experiencia en el campo de la transformación digital, estamos comprometidos a impulsar el éxito de nuestros clientes, brindando soluciones personalizadas que les permiten adaptarse a un mundo en constante evolución y competir de manera efectiva en la era digital. \nAyudamos a las empresas a adaptarse a esta emocionante revolución, ofreciendo soluciones tecnológicas innovadoras que abren un mundo de posibilidades. \nJuntos, construimos un futuro más eficiente, ágil y sostenible."
+  },
+  {
+    "url": "https://gestionysistemas.com/conocenos/",
+    "title": "¿Cuál es la misión de G&S?",
+    "content": "En G&S, nuestra misión es liderar la transformación digital de tu negocio. Como expertos en soluciones integrales, nos dedicamos a potenciar tu empresa en la era digital. Nuestro compromiso con la calidad se refleja en cada proyecto, con resultados excepcionales que generan un retorno del 65% y atraen a un 183% más de clientes nuevos."
+  },
+  {
+    "url": "https://gestionysistemas.com/conocenos/",
+    "title": "¿Cuál es la visión de G&S?",
+    "content": "En G&S, nuestra visión es ser reconocidos como líderes en la transformación digital, brindando soluciones integrales que potencien tu negocio en la era digital."
+  },
+  {
+    "url": "https://gestionysistemas.com/conocenos/",
+    "title": "¿Por qué Gestión y Sistemas?",
+    "content": "Elegirnos significa contar con un socio confiable y orientado al éxito que lo ayudará a abrazar la transformación digital y aprovechar al máximo las oportunidades que la tecnología moderna ofrece."
+  },
+  {
+    "url": "https://gestionysistemas.com/conocenos/",
+    "title": "Reconocimientos",
+    "content": "Reconocimientos: \n- 6 veces Partener de Microsoft \n- Autorización de uso de la marca Perú Xpert. \nLos 50 proveedores de servicios más innovadores del país según PROMPERÚ."
+  },
+  {
+    "url": "https://gestionysistemas.com/conocenos/",
+    "title": "Especializaciones",
+    "content": "Especializaciones avanzadas de Microsoft: \n- Windows Server and SQL Server Migration to Microsoft Azure \n- Modernization of Web Applications in Microsoft Azure \n- Kubernetes on Microsoft Azure \n- Analytics on Microsoft Azure \n- DevOps en Github."
+  }
+]
