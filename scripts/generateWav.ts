@@ -20,7 +20,7 @@ const generateWav = async (
     }
 
     const data = await response.json();
-    console.log("data:", data);
+    // console.log("generateWav data:", data);
 
     return { message: data.message, audio_url: data.audio_url };
   } catch (error) {

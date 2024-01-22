@@ -64,7 +64,7 @@ const Bubble: JSXElementConstructor<any> = forwardRef(function Bubble(
         isUser ? "float-right" : "float-left"
       }`}
     >
-      <div className={`flex justify-${isUser ? "end" : "start"}`}>
+      <section className={`flex justify-${isUser ? "end" : "start"}`}>
         <div className={`talk-bubble${isUser ? " user" : ""} p-2 md:p-4`}>
           <>
             <Markdown
@@ -79,7 +79,7 @@ const Bubble: JSXElementConstructor<any> = forwardRef(function Bubble(
             </Markdown>
             {isAssistant && (
               <button
-                className="mt-2 p-3 bg-white color-black rounded-full flex items-center rounded"
+                className="mt-2 p-3 toggle-background rounded-full flex items-center rounded"
                 onClick={() => handlePlayButtonClick(content?.content)}
                 disabled={isLoading}
               >
@@ -99,7 +99,7 @@ const Bubble: JSXElementConstructor<any> = forwardRef(function Bubble(
             <audio ref={audioRef} onEnded={handleAudioEnded} />
           </>
         </div>
-      </div>
+      </section>
     </div>
   );
 });
