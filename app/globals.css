@@ -6,7 +6,7 @@
   --text-primary: #ffffff;
   --text-primary-inverse: #112931;
   --text-primary-main: #112931;
-  --text-secondary: #a6aaae;
+  --text-secondary: #9cb3b9;
   --text-secondary-inverse: #494a4d;
   --background-bubble-primary: #193741;
   --background-bubble-secondary: #ffbe1e;
@@ -14,7 +14,7 @@
   --background-soft: #ffbe1e;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
-  --text-tertiary: #6b6f73;
+  --text-tertiary: #9cb3b9;
   --shadow-primary: 0px 6px 16px 0px #0a0a0a1f, 0px 4px 14px 0px #0a0a0a14,
     0px 8px 10px 0px #0a0a0a14;
   --processing-dot-size: 4px;
@@ -24,9 +24,9 @@
   --text-primary: #193741;
   --text-primary-inverse: #ffffff;
   --text-primary-main: #193741;
-  --text-secondary: #fafafa;
+  --text-secondary: #5f7279;
   --text-secondary-inverse: #dddfe2;
-  --text-tertiary: #768d94;
+  --text-tertiary: #5f7279;
   --background-bubble-primary: #ffbe1e;
   --background-bubble-secondary: #112931;
   --background-soft: #ffbe1e;
@@ -136,9 +136,9 @@ body {
 
 .talk-bubble svg {
   position: absolute;
-  left: -1px;
-  bottom: 2px;
-  transform: translateY(100%) rotateY(180deg);
+  left: 4px;
+  /* bottom: 2px;*/
+  transform: translateX(100%);
   fill: var(--background-bubble-secondary);
 }
 

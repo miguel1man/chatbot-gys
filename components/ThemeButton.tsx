@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import SunIcon from "./assets/SunIcon";
 import MoonIcon from "./assets/MoonIcon";
 
-const ToggleButton = () => {
+const ThemeButton = () => {
   const [theme, setTheme] = useState<string | null>(null);
 
   useEffect(() => {
@@ -52,4 +52,4 @@ const ToggleButton = () => {
   );
 };
 
-export default ToggleButton;
+export default ThemeButton;
