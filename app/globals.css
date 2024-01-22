@@ -135,10 +135,9 @@ body {
 }
 
 .talk-bubble svg {
-  position: absolute;
-  left: 4px;
-  /* bottom: 2px;*/
-  transform: translateX(100%);
+  position: static;
+  left: auto;
+  transform: none;
   fill: var(--background-bubble-secondary);
 }
 

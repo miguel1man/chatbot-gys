@@ -79,7 +79,7 @@ const Bubble: JSXElementConstructor<any> = forwardRef(function Bubble(
             </Markdown>
             {isAssistant && (
               <button
-                className="mt-2 p-3 toggle-background rounded-full flex items-center rounded"
+                className="w-8 h-8 mt-1 p-2 toggle-background rounded-full flex items-center justify-center"
                 onClick={() => handlePlayButtonClick(content?.content)}
                 disabled={isLoading}
               >

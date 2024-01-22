@@ -23,6 +23,5 @@ Chatbot with OpenAI and Astra DB.
 
 ## Running the Project
 
-To start the development server, run `npm run dev` in your terminal. Open [http://localhost:3000](http://localhost:3000) to view the chatbot in your browser.
-
-Note: Before you deploying to prod, you will want to remove seed script (`npm run seed`) from the build step.
+1. Run `npm run dev` to start the development server.
+2. Open `http://localhost:3000` to view the chatbot in your browser.

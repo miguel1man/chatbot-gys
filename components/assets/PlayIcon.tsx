@@ -1,11 +1,11 @@
 import React from "react";
 
-const MoonIcon: React.FC = () => (
+const PlayIcon: React.FC = () => (
   <svg
     aria-label="Light Mode"
     width="18px"
     height="18px"
-    viewBox="4 1 30 30"
+    viewBox="0 1 30 30"
     fill="none"
     version="1.1"
     xmlns="http://www.w3.org/2000/svg"
@@ -14,4 +14,4 @@ const MoonIcon: React.FC = () => (
   </svg>
 );
 
-export default MoonIcon;
+export default PlayIcon;

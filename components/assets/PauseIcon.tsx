@@ -1,6 +1,6 @@
 import React from "react";
 
-const MoonIcon: React.FC = () => (
+const PauseIcon: React.FC = () => (
   <svg
     fill="#000000"
     width="16px"
@@ -12,4 +12,4 @@ const MoonIcon: React.FC = () => (
   </svg>
 );
 
-export default MoonIcon;
+export default PauseIcon;
